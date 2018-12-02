@@ -1,50 +1,66 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #777;
-    background: #777;
+    background-color: #777;
     width: 960px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 18px;
+    text-align: center;
 }
 
-header {
-    background: #ebebeb;
-    margin-right: auto;
-    margin-left: auto;
+header > p, nav > p, section > p, aside > p, footer > p {
+    background-color: #ebebeb;
+    padding: 40px;
+    margin: 10px;
 }
 
-nav {
-    background: #ebebeb;
-    margin-right: auto;
-    margin-left: auto;
+.headerfix {
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 20px 10px 20px;
 }
-
 section {
-    background: #ebebeb;
-    width: 495px;
+    background-color: #ebebeb;
+    width: 475px;
+    height: 40%;
     float: left;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 aside {
-    background: #ebebeb;
-    width: 495px;
-    float: left;
+    background-color: #ebebeb;
+    float: right;
+    width: 46%;
+    height: 278px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 footer {
-    background: #ebebeb;
-    margin-right: auto;
-    margin-left: auto;
-    clear: left;
+    clear: both;
 }
 
 article {
-    color: #777;
-    background: #ebebeb;
+    color: #ebebeb;
+    background-color: #777;
+    padding: 15px 25px 15px 25px;
 }
 
 h1, p {
+    background-color: #ebebeb;
     color: #777;
-    background: #ebebeb;
     text-align: center;
+    padding: 15px;
+    margin: 0px 20px 10px 20px;
 }
 
